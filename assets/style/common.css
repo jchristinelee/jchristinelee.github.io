@@ -440,7 +440,6 @@ header .gnb-mobile ul li a {
     background-repeat:no-repeat;
     max-width: 300px;
     height:300px;
-    overflow: hidden;
     position: relative;
     
 }
