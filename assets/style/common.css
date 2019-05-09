@@ -195,7 +195,7 @@ header .gnb-mobile ul li a {
     font-size: 8.5vw;
     width: 100%;
     font-weight: bold;
-    margin-left: 300px;
+    text-align: center;
     color: #FFF;
     text-shadow: 0 0 5px #000;
     
@@ -223,7 +223,7 @@ header .gnb-mobile ul li a {
 .top-box > div p {
     font-size: 2vw;
     width: 100%;
-    margin-left:300px;
+    text-align: center;
     margin-top: 10px;
     color: #ccc;
     letter-spacing: 1.5px;
