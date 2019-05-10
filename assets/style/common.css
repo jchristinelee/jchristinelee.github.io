@@ -283,6 +283,11 @@ header .gnb-mobile ul li a {
 //-----------------------------------------------------------------------------
 */
 
+@media only screen and (max-width: 768px) {
+    .content-box {
+        width:100%;
+    }
+}
 
 
 .content-box {
