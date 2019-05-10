@@ -14,13 +14,12 @@
         <script type="text/javascript" src="assets/script/common.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
         <script
-  src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> 
+          src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> 
 
-<!--<script src="assets/js/index.js"></script>
-<script src="assets/js/jquery.scrollme.min.js"></script>-->
+        <!--<script src="assets/js/index.js"></script>
+        <script src="assets/js/jquery.scrollme.min.js"></script>-->
 
-        
         <title>Christine Lee</title>
     </head>
 <body>
@@ -146,13 +145,13 @@
             <div class="img-box">
                 <a href="http://raemi.dothome.co.kr/raemi/welstory/welstory.html
                 " target="_blank">
-                <img src="assets/img/1.samsung_logo.png" />
+                    <img src="assets/img/1.samsung_logo.png" />
                 </a>
             </div>
         </div>
     </section>
     
-    <!--
+    
     <section class="content-box content-c">
         <div class="content-wrapper"> 
             <div>
@@ -174,10 +173,12 @@
                 </article>
             </div>
             <div class="img-box">
-                <img src="assets/img/3.Converse-Logo-Decal-Sticker.jpg" alt="converse" />
+                <a href="http://raemi.dothome.co.kr/raemi/converse/converse.html" target="_blank">
+                    <img src="assets/img/3.Converse-Logo-Decal-Sticker.jpg" alt="converse" />
+                </a>
             </div>
         </div>
-    </section>-->
+    </section>
     
     <section class="content-box content-d" id="casestudy">
         <div class="content-wrapper">
@@ -194,11 +195,14 @@
             <header>
                 <h4>About Me</h4>
                 <hr />
-                <p>coming soon...</p>
             </header>
-        </div>
-        <div class="pic">
-            <img src="#">
+            <article>
+                <p> I am a web designer with a backgrounds in statistics, research, and teaching. <br />I enjoy learning new things and love art/design. When I’m not coding, you will most likely find me browsing on home decor inspiration and cooking. 
+                </p>
+            </article>
+            <div class="img-box2">
+                <img src="assets/img/profilepic.jpeg" alt="profile picture" />
+            </div>
         </div>
     </section>
     
@@ -238,12 +242,10 @@
             </article>
         </div>
     </section>
-
     <script>
-    $('img').mouseenter(function() {
-    $(this).effect('bounce',5000);
-    });
-
+        $('.img-box').mouseenter(function() {
+        $(this).effect('bounce',5000);
+        });
     </script>
 </body>
 </html>

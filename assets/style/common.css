@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-    height: 2580px!important;
+    height: 3500px!important;
 }
 
 h1, h2, h3, h4, h5, h6, div, p, a, input, form, fieldset, legend, audio, video,
@@ -474,7 +474,8 @@ header .gnb-mobile ul li a {
 @media( max-width: 640px ){
     .content-a .content-wrapper,
     .content-b .content-wrapper,
-    .content-c .content-wrapper{
+    .content-c .content-wrapper,
+    .content-f .content-wrapper{
         display: block;
     }
     
@@ -490,9 +491,14 @@ header .gnb-mobile ul li a {
         margin-right:0;
     }
     
+    .content-f .content-wrapper > div:not(:last-child) {
+        margin-right:0;
+    }
+    
     .content-a .content-wrapper > div:not(:first-child),
     .content-b .content-wrapper > div:not(:first-child),
-    .content-c .content-wrapper > div:not(:first-child){
+    .content-c .content-wrapper > div:not(:first-child),
+    .content-f .content-wrapper > div:not(:first-child){
         margin-top: 20px;
     }
 }
@@ -516,6 +522,47 @@ header .gnb-mobile ul li a {
 */
 
 
+/*
+//-------------------------------------
+//
+//  CONTENT-f 
+//  ABOUT ME
+//-------------------------------------
+*/
+
+.content-f .content-wrapper {
+    margin:0 auto;
+    max-height: 1200px;
+    padding:10px;
+    position: relative;
+}
+
+.content-f div article{
+    padding-top: 30px;
+}
+
+.content-f .header {
+    text-align: center;
+}
+
+.content-f article p {
+    float:left;
+    width:500px;
+    padding-left: 30px;
+    padding-top:20px;
+    text-align: left;
+    font-size: 18px;
+    color: lightgray;
+    line-height: 1.8em;
+}
+
+.content-f .content-wrapper .img-box2 img{
+    width:250px;
+    height:250px;
+    padding-bottom: 10px;
+    margin-left:10%;
+    border-radius: 200px;
+}
 /*
 //-------------------------------------
 //
