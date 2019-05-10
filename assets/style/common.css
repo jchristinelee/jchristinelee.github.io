@@ -532,7 +532,7 @@ header .gnb-mobile ul li a {
 
 .content-f .content-wrapper {
     margin:0 auto;
-    max-height: 1200px;
+    width:900px;
     padding:10px;
     position: relative;
 }
