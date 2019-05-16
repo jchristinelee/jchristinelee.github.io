@@ -24,6 +24,8 @@ body {
         padding-bottom: 30px;
     }
     
+    
+    
     .content-a div .img-box {
         margin:0 auto;
     }
@@ -170,7 +172,7 @@ header .gnb-mobile ul li a {
 }
 
 
-@media(max-width: 640px) {
+@media(max-width: 471px) {
     header.site-header.active {
         height: 350px;
     }
