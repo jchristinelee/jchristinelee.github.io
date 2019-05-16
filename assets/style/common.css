@@ -20,7 +20,7 @@ body {
 @media only screen and (max-width: 412px) {
     body {
         overflow-x:hidden;
-        height: 4528px!important;
+        height: 5528px!important;
         padding-bottom: 30px;
     }
     
@@ -42,7 +42,7 @@ body {
     }
     
     .content-f article p {
-        padding: 20px 0px!important;
+
     }
     
     
@@ -613,7 +613,7 @@ header .gnb-mobile ul li a {
 }
 
 .content-f article p {
-    padding: 20px 200px;
+    /*padding: 20px 200px;*/
     text-align: center;
     font-size: 18px;
     color: #666;
