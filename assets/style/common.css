@@ -17,6 +17,13 @@ body {
     height: 3500px!important;
 }
 
+@media only screen and (max-width: 412px) {
+    body {
+        overflow-x:hidden;
+        
+    }
+}
+
 h1, h2, h3, h4, h5, h6, div, p, a, input, form, fieldset, legend, audio, video,
 header, article, section, aside, table, td, th, ul, ol, li, dl, dd, dt, label, hr,
 span, strong, em, textarea, select {
@@ -184,9 +191,6 @@ header .gnb-mobile ul li a {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    /*
-    background: linear-gradient( rgba( 0, 0, 0, 0 ), rgba( 0, 0, 0, 1 ) ), no-repeat center / cover;
-    */
     background-color:black;
 
 }
@@ -283,19 +287,43 @@ header .gnb-mobile ul li a {
 //-----------------------------------------------------------------------------
 */
 
-@media only screen and (max-width: 768px) {
-    .content-box {
+@media only screen and (max-width: 640px) {
+    .content-box .content-wrapper{
+        width:100% !important;
+        height:100%;
+        margin:0px;
+        padding:0px;
+    }
+    
+    .content-a .content-wrapper{
         width:100%;
+        height:100%;
+        margin:0px;
+        padding:0px
+    }
+}
+
+@media(max-width: 640px) {
+    .content-box header h4 {
+        font-size: 36px;
+    }    
+    
+    .content-box article p{
+        display: block;
+    }
+    .content-box article p {
+        font-size: 12px;
+        letter-spacing: 3px;
     }
 }
 
 
 .content-box {
     padding-top:200px;
-    padding-left:10%;
-    padding-right:10%;
+    width:100%;
 
 }
+
 
 
 .content-box .content-wrapper {
@@ -393,6 +421,10 @@ header .gnb-mobile ul li a {
 
 }
 
+.content-f .content-wrapper {
+    display:block;
+}
+
 .content-b .content-wrapper {
     flex-direction: row-reverse;
 }
@@ -418,6 +450,14 @@ header .gnb-mobile ul li a {
 .content-a .content-wrapper > div:first-child,
 .content-b .content-wrapper > div:first-child,
 .content-c .content-wrapper > div:first-child{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.content-a .content-wrapper > .img-box,
+.content-b .content-wrapper > .img-box,
+.content-c .content-wrapper > .img-box{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
