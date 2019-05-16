@@ -41,10 +41,7 @@ body {
         height:100%;
     }
     
-    .content-f article p {
 
-    }
-    
     
 }
 
@@ -613,7 +610,7 @@ header .gnb-mobile ul li a {
 }
 
 .content-f article p {
-    /*padding: 20px 200px;*/
+    padding: 20px 50px;
     text-align: center;
     font-size: 18px;
     color: #666;
