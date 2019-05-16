@@ -17,7 +17,7 @@ body {
     height: 3500px!important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 412px) {
     body {
         overflow-x:hidden;
         height: 4528px!important;
@@ -172,7 +172,7 @@ header .gnb-mobile ul li a {
 }
 
 
-@media(max-width: 471px) {
+@media(max-width: 412px) {
     header.site-header.active {
         height: 350px;
     }
@@ -263,7 +263,7 @@ header .gnb-mobile ul li a {
     animation-fill-mode: backwards;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 412px) {
     .top-box > div h2 {
         font-size: 36px;
     }
@@ -296,7 +296,7 @@ header .gnb-mobile ul li a {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 412px) {
     .top-box {
         width:100%;
     }
@@ -311,7 +311,7 @@ header .gnb-mobile ul li a {
 //-----------------------------------------------------------------------------
 */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 412px) {
     .content-box .content-wrapper{
         width:100% !important;
         height:100%;
@@ -327,7 +327,7 @@ header .gnb-mobile ul li a {
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 412px) {
     .content-box header h4 {
         font-size: 36px;
     }    
@@ -387,7 +387,7 @@ header .gnb-mobile ul li a {
     }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 412px) {
     .content-box header h4 {
         font-size: 26px;
     }
