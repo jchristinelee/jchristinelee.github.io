@@ -218,10 +218,10 @@ header .gnb-mobile ul li a {
 }
 
 .top-box > div h2 {
-    font-size: 8.5vw;
+    font-size: 4vw;
     width: 100%;
-    font-weight: bold;
-    text-align: center;
+    font-weight:normal;
+    text-align:center;
     color: #FFF;
     text-shadow: 0 0 5px #000;
     
@@ -232,6 +232,7 @@ header .gnb-mobile ul li a {
 }
 
 .top-box > div h2 span {
+    font-family: 'Playfair Display', serif;
     display: block;
     color: inherit;
     font-size: inherit;
@@ -239,20 +240,28 @@ header .gnb-mobile ul li a {
     text-align: inherit;
 }
 
+.top-box > div h2 .target-p2 {
+    color: sandybrown;
+    font-family:'Muli', sans-serif;
+    font-weight:bold;
+}
 
-.top-box > div h2 .target-m {
+
+.top-box > div h2 .target-m,
+.top-box > div h2 .target-m2{
     display: none;
     line-height: 1.5;
 }
 
 
 .top-box > div p {
-    font-size: 2vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
     width: 100%;
     text-align: center;
     margin-top: 10px;
-    color: #ccc;
-    letter-spacing: 1.5px;
+    color:#fff;
+    letter-spacing: 1px;
     line-height: 1.5;
     
     animation-name: enter-light;
@@ -266,11 +275,13 @@ header .gnb-mobile ul li a {
         font-size: 36px;
     }
     
-    .top-box > div h2 .target-p {
+    .top-box > div h2 .target-p,
+    .top-box > div h2 .target-p2{
         display: none;
     }
     
-    .top-box > div h2 .target-m {
+    .top-box > div h2 .target-m 
+    .top-box > div h2 .target-m2{
         display: block;
     }
     
