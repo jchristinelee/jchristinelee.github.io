@@ -29,7 +29,7 @@
                             </a>
                         </li>
 
-                        <li class="nav__item">
+                        <li class="nav__item" style="display: none;">
                             <a href="#about" class="nav__link">
                                 <i class="uil uil-user nav__icon"></i> About
                             </a>
@@ -49,7 +49,7 @@
 -->
                         <li class="nav__item">
                             <a href="#portfolio" class="nav__link">
-                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                                <i class="uil uil-scenery nav__icon"></i> Projects
                             </a>
                         </li>
 
@@ -65,8 +65,8 @@
                 </div>
 
                 <div class="nav__btns">
-                    <!-- Theme change button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <!-- Theme change button hidden -->
+                    <i class="uil uil-moon change-theme" id="theme-button" style="display: none;"></i>
 
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
@@ -142,7 +142,7 @@
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+            <section class="about section" id="about" style="display: none;">
                 <h2 class="section__title">About Me</h2>
                 <span class="section__subtitle">My introduction</span>
 
@@ -618,27 +618,28 @@
                 <h2 class="section__title">Projects</h2>
                 <span class="section__subtitle"></span>
 
-                <div class="portfolio__container container" style="display: flex; flex-direction: column; gap: 3rem; max-width: 768px; margin: 0 auto;">
+                <div class="portfolio__container container" style="display: flex; flex-direction: row; gap: 4rem; max-width: 960px; margin: 0 auto; flex-wrap: wrap; align-items: flex-start;">
 
-                    <!--=============== PORTFOLIO 1 ===============-->
-                    <div class="portfolio__content grid" style="grid-template-columns: 1fr; gap: 1.5rem;">
-                        <img src="assets/img/ds-thumbnail.jpg" alt="UI Audit & Design System" class="portfolio__img" style="width: 100%; border-radius: 0.5rem;">
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Standardizing Enterprise Complexity</h3>
-                            <p class="portfolio__description">A system-led audit and design system for a large enterprise platform. Audited 20+ products and built a 3-tier style guide adopted by 5+ cross-functional teams.</p>
-                            <a href="https://mature-kayak-2e7.notion.site/Standardizing-Enterprise-Complexity-A-System-Led-Audit-Design-System-3137742882628000b044db99c253b8be?pvs=143" target="_blank" class="button button--flex button--small portfolio__button">
+                    <!--=============== PROJECT 1 - Preview Pages ===============-->
+                    <div style="flex: 1; min-width: 280px; max-width: 460px; display: flex; flex-direction: column; gap: 1rem;">
+                        <img src="assets/img/thumbnail-2.jpg" alt="Preview Pages Redesign" style="width: 100%; height: 220px; object-fit: cover; border-radius: 0.5rem;">
+                        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                            <h3 class="portfolio__title" style="margin: 0; line-height: 1.3;">Redesigning Enterprise Product Preview&nbsp;Pages</h3>
+                            <p class="portfolio__description" style="margin: 0; line-height: 1.6;">Audited 7 product preview pages, conducted competitive research, and redesigned pilot pages to establish a scalable framework for product storytelling.</p>
+                            <a href="https://mature-kayak-2e7.notion.site/Redesigning-Enterprise-Product-Preview-Pages-31e7742882628003a783f36ddbacd615" target="_blank" class="button button--flex button--small portfolio__button" style="width: fit-content;">
                                 View Case Study
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="portfolio__content grid" style="grid-template-columns: 1fr; gap: 1.5rem;">
-                        <img src="assets/img/ds-thumbnail.jpg" alt="UI Audit & Design System" class="portfolio__img" style="width: 100%; border-radius: 0.5rem;">
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Standardizing Enterprise Complexity</h3>
-                            <p class="portfolio__description">A system-led audit and design system for a large enterprise platform. Audited 20+ products and built a 3-tier style guide adopted by 5+ cross-functional teams.</p>
-                            <a href="https://mature-kayak-2e7.notion.site/Standardizing-Enterprise-Complexity-A-System-Led-Audit-Design-System-3137742882628000b044db99c253b8be?pvs=143" target="_blank" class="button button--flex button--small portfolio__button">
+                    <!--=============== PROJECT 2 - Design System ===============-->
+                    <div style="flex: 1; min-width: 280px; max-width: 460px; display: flex; flex-direction: column; gap: 1rem;">
+                        <img src="assets/img/ds-thumbnail.jpg" alt="UI Audit & Design System" style="width: 100%; height: 220px; object-fit: cover; border-radius: 0.5rem;">
+                        <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                            <h3 class="portfolio__title" style="margin: 0; line-height: 1.3;">Standardizing Enterprise<br>Complexity</h3>
+                            <p class="portfolio__description" style="margin: 0; line-height: 1.6;">Audited 20+ products and built a 3-tier style guide adopted by 5+ cross-functional teams to establish a unified design foundation across the platform.</p>
+                            <a href="https://mature-kayak-2e7.notion.site/Standardizing-Enterprise-Complexity-A-System-Led-Audit-Design-System-3137742882628000b044db99c253b8be?pvs=143" target="_blank" class="button button--flex button--small portfolio__button" style="width: fit-content;">
                                 View Case Study
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -855,8 +856,9 @@
                             <i class="uil uil-envelope contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Email</h3>
+
                                 <span class="contact__subtitle"><a href="mailto:clee801792@gmail.com">clee801792@gmail.com</a></span>
-                            </div>
+                                                      </div>
                         </div>
 
                         <div class="contact__information">
@@ -918,5 +920,4 @@
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
 
-        <!--==================== SWIPER JS ====================-->
-        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-s
+        <!
